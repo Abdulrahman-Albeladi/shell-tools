@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Shell/runtime artifacts
+*.log
+*.tmp
+*.bak
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+.env
+*.pem
+*.key
+credentials.json
+service-account.json
+local.properties
+**/data/raw/**
+**/.ipynb_checkpoints/**
+__pycache__/
+
+# Generated, local, and secret material
+*.p12
+*.pfx
+service-account*.json
+google-services.json
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.class
+build/
+dist/
+node_modules/
