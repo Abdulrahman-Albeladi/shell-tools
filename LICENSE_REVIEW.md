@@ -1,14 +1,8 @@
-# License Review Required
+# License and ownership review
 
-A license file is not added automatically.
+This repository uses an all-rights-reserved portfolio license. It is not open source.
 
-## Reason
-
-This repository was extracted from a coursework context, and ownership or upstream licensing may require manual confirmation.
-
-## Review checklist
-
-- Confirm the scripts are original work or that redistribution is permitted.
-- Confirm no course starter code, assignment scaffolding, or instructor-owned material remains.
-- Confirm collaborator attribution and publication permission if any part of the work was shared.
-- Add the correct license only after ownership and reuse rights are verified.
+Before making the repository public, confirm redistribution rights for every retained
+file, including course scaffolding, starter code, collaborator contributions,
+datasets, images, and other assets. Remove or replace anything whose ownership or
+redistribution terms are uncertain.
