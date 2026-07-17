@@ -95,24 +95,18 @@ The included utilities were recovered as publish-eligible material from 398W fil
 
 See `CONTRIBUTING.md` for contribution guidance and `SECURITY.md` for vulnerability-reporting information. Review `LICENSE_REVIEW.md` before adding third-party code, copied command snippets, or redistributed datasets.
 
-<!-- portfolio-public-release-license:start -->
+## Current repository layout
 
-## License and public-release status
+- `.github/` — 1 files
+- `bin/` — 2 files
+- `docs/` — 1 files
+- `projects/` — 2 files
 
-This repository is published under an all-rights-reserved
-portfolio license. Viewing the repository does not grant permission to reuse its code,
-documentation, datasets, or assets. Third-party and collaborator materials retain
-their original rights.
+## Public-release status
 
-Before changing visibility from private to public, the owner must complete the
-ownership checklist in `LICENSE_REVIEW.md`.
+**READY FOR FINAL MANUAL PUBLIC-RELEASE CHECK**
 
-<!-- portfolio-public-release-license:end -->
+Automated security and documentation checks pass. Complete the ownership checklist and verify build or test claims before changing visibility.
 
-<!-- release-license:start -->
-
-## License and public-release status
-
-This repository uses an all-rights-reserved portfolio license. Review `LICENSE_REVIEW.md` and `THIRD_PARTY_NOTICES.md` before changing visibility to public.
-
-<!-- release-license:end -->
+This repository uses an all-rights-reserved portfolio license. Review `LICENSE`,
+`LICENSE_REVIEW.md`, `THIRD_PARTY_NOTICES.md`, and `OWNERSHIP_REVIEW.md`.
