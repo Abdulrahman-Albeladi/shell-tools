@@ -43,12 +43,6 @@ chmod +x projects/todo/todo.sh projects/sysmon/sysmon.sh
 ./projects/sysmon/sysmon.sh
 ```
 
-## Validation status
-
-A GitHub Actions workflow is present at `.github/workflows/ci.yml`, but its checks and execution history are not established by the recovered file list. No passing test run, lint result, compatibility result, or release validation is claimed here.
-
-Before relying on either utility, inspect the workflow and scripts, then run syntax checks and controlled manual tests in a disposable environment. Suggested commands are listed in the project index.
-
 ## Private data and local state
 
 This repository should not contain personal todo items, machine inventories, hostnames, usernames, process output, credentials, API tokens, or private filesystem paths.
@@ -94,19 +88,3 @@ The included utilities were recovered as publish-eligible material from 398W fil
 ## Contributing and security
 
 See `CONTRIBUTING.md` for contribution guidance and `SECURITY.md` for vulnerability-reporting information. Review `LICENSE_REVIEW.md` before adding third-party code, copied command snippets, or redistributed datasets.
-
-## Current repository layout
-
-- `.github/` — 1 files
-- `bin/` — 2 files
-- `docs/` — 1 files
-- `projects/` — 2 files
-
-## Public-release status
-
-**READY FOR FINAL MANUAL PUBLIC-RELEASE CHECK**
-
-Automated security and documentation checks pass. Complete the ownership checklist and verify build or test claims before changing visibility.
-
-This repository uses an all-rights-reserved portfolio license. Review `LICENSE`,
-`LICENSE_REVIEW.md`, `THIRD_PARTY_NOTICES.md`, and `OWNERSHIP_REVIEW.md`.
