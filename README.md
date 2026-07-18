@@ -1,5 +1,12 @@
 # Shell Tools
 
+<!-- employer-visual:start -->
+<p align="center">
+  <img src="docs/portfolio-overview.png" alt="Shell Tools project overview" width="100%">
+</p>
+<!-- employer-visual:end -->
+
+
 Small Bash command-line utilities for task tracking and system monitoring.
 
 **Technologies:** Bash · Unix Command Line
