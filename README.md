@@ -1,4 +1,4 @@
-# shell-utilities
+# Shell Tools
 
 Recovered shell utilities from 398W coursework and related project files. The repository is organized as standalone command-line scripts with copies or entry points under `bin/` and project-local source locations under `projects/`.
 
