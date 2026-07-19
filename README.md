@@ -1,9 +1,5 @@
 # Shell Tools
 
-<!-- employer-visual:start -->
-<p align="center">
-  <img src="docs/portfolio-overview.png" alt="Shell Tools project overview" width="100%">
-</p>
 <!-- employer-visual:end -->
 
 
