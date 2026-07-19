@@ -11,31 +11,39 @@ Small Bash command-line utilities for task tracking and system monitoring.
 
 **Technologies:** Bash · Unix Command Line
 
-## Highlights
+## Utilities
 
-- A lightweight command-line todo utility.
-- A system-monitoring utility for local machine information.
-- Small scripts that are easy to inspect and discuss in interviews.
+- Todo: `bin/todo.sh` — add, list, done, undo, rm, clean. Config: `TODO_FILE` (default: `$HOME/.todo-list`).
+- System monitor: `bin/sysmon.sh` — `collect` a CSV sample, `watch` a live dashboard, or `query` a CSV time range. Config: `SYSMON_LOG_FILE` (default: `/tmp/sysmon.csv`), `SYSMON_REFRESH_SECONDS`.
 
-## Projects
+## Quickstart
 
-| Project | Location |
-|---|---|
-| Todo Utility | [`projects/todo`](projects/todo) |
-| System Monitor | [`projects/sysmon`](projects/sysmon) |
-| Command-line entry points | [`bin`](bin) |
-
-## Getting started
-
-1. Use a Unix-like environment with Bash.
+1. Use a Linux environment with Bash.
 2. Run `chmod +x bin/*.sh`.
-3. Review `docs/usage.md`, then run the selected utility.
+3. Run from the repository root or add `bin/` to your `PATH`:
+
+```bash
+./bin/todo.sh
+./bin/sysmon.sh
+```
+
+## Usage
+
+See [`docs/usage.md`](docs/usage.md) for command examples and environment variables.
+
+## Dependencies
+
+- `bin/sysmon.sh` requires: `top`, `free`, `awk`, `date`, `dirname`, `mkdir`, `clear`, `sleep`
+- `bin/todo.sh` requires: `awk`, `grep`, `wc`, `tr`, `mktemp`, `mkdir`, `dirname`
+
+## Platform
+
+- Designed for Linux. macOS/BSD variants of `top`/`free` may not parse identically.
 
 ## Portfolio note
 
 System-monitor output can contain local machine information; avoid committing captured output.
 
 ## License and attribution
-
 
 Use and redistribution are governed by the repository's [`LICENSE`](LICENSE).
